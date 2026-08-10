@@ -1,5 +1,7 @@
+train: /home/gatimu/computer_vision/number_plate/License-Plate-Data/train
+val: /home/gatimu/computer_vision/number_plate/License-Plate-Data/test
+
+nc: 1
+
 names:
   0: license_plate
-nc: 1
-train: /kaggle/input/car-number-plate-dataset-yolo-format/License-Plate-Data/train
-val: /kaggle/input/car-number-plate-dataset-yolo-format/License-Plate-Data/test
