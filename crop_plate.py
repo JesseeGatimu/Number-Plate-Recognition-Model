@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 import cv2
 model=YOLO("runs/detect/train-2/weights/best.pt")
-image=cv2.imread("gari.jpeg")
+image=cv2.imread("prado.jpg")
 if image is None:
     print("Image not found")
     exit()
